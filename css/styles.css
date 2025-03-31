@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
+
+/* Adding in the global settings. */
+html {
+  line-height: 1.2em;
+}
+
+body {
+  background-color: #F0F8FF;
+  font-family: 'Poppins', Arial, sans-serif;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Adding in styles for the header. */
+header {
+  background-color: #005B7F;
+  color: white;
+  padding: 1em 0;
+}
+
+.header-container {
+  text-align: center;
+}
+
+.header-container .logo img {
+  max-width: 400px;
+}
+
+header h1 {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 2.5em;
+  margin-top: 0.5em;
+  color: white;
+}
+
+/* Adding style for the navigation. */
+nav {
+  background-color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.nav-list a {
+  color: #005B7F;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.nav-list a:hover {
+  text-decoration: underline;
+  color: #007BB5;
+}
+
+/* Added some padding to the main. */
+.main {
+  padding: 3em 10%;
+}
+
+/* Adding style to the main-text. */
+.main-text {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 2em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2em;
+}
+
+.main-text h1 {
+  color: #005B7F;
+  margin-bottom: 1em;
+}
+
+.main-text p {
+  font-size: 1.1em;
+  line-height: 1.6em;
+  color: #333333;
+  margin-bottom: 1.5em;
+}
+
+strong {
+  font-weight: bold;
+  color: #005B7F;
+}
+
+/* Adding style for the service,contact, and history divs. */
+.servicesDiv, .contactDiv, .historyDiv {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 2em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2em;
+}
+
+#services-container h2, #contact-container h2, #history-container h2 {
+  font-size: 1.8em;
+  color: #005B7F;
+  margin-bottom: 1em;
+}
+
+#services-container p, #contact-container p, #history-container p {
+  font-size: 1.1em;
+  line-height: 1.6em;
+  color: #333333;
+  margin-bottom: 1.5em;
+}
+
+#services-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+#services-container li {
+  font-size: 1.2em;
+  color: #333333;
+  margin-bottom: 0.5em;
+}
+
+#contact-container a {
+  color: #005B7F;
+  text-decoration: none;
+}
+
+#contact-container a:hover {
+  text-decoration: underline;
+  color: #007BB5;
+}
+
+/* Added style to the footer. */
+footer {
+  background-color: #005B7F;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+footer p {
+  font-size: 1em;
+}
+
+footer a {
+  color: #FFD700;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Media queries for screens that have a minimum width of 480px. */
+@media screen and (min-width: 480px) {
+  .main {
+    padding: 3em 8%;
+  }
+
+  .header-container h1 {
+    font-size: 2.2em;
+  }
+
+  .nav-list li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  .main-text p {
+    font-size: 1.05em;
+  }
+
+  .servicesDiv, .contactDiv, .historyDiv {
+    padding: 1.8em;
+  }
+}
+
+/* Media queries for screens that have a minimum width of 768px. */
+@media screen and (min-width: 768px) {
+  .main {
+    padding: 3em 10%;
+  }
+
+  .header-container h1 {
+    font-size: 2.5em;
+  }
+
+  .nav-list li {
+    display: inline;
+    margin: 0 15px;
+  }
+
+  .main-text p {
+    font-size: 1.1em;
+  }
+
+  .servicesDiv, .contactDiv, .historyDiv {
+    padding: 2em;
+  }
+}
