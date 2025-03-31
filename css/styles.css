@@ -4,3 +4,11 @@
 html {
   line-height: 1.2em;
 }
+
+body {
+  background-color: #F0F8FF;
+  font-family: 'Poppins', Arial, sans-serif;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
