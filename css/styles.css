@@ -68,3 +68,29 @@ nav {
 .main {
   padding: 3em 10%;
 }
+
+/* Adding style to the main-text. */
+.main-text {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 2em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2em;
+}
+
+.main-text h1 {
+  color: #005B7F;
+  margin-bottom: 1em;
+}
+
+.main-text p {
+  font-size: 1.1em;
+  line-height: 1.6em;
+  color: #333333;
+  margin-bottom: 1.5em;
+}
+
+strong {
+  font-weight: bold;
+  color: #005B7F;
+}
