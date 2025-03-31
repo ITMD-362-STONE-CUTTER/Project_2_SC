@@ -94,3 +94,46 @@ strong {
   font-weight: bold;
   color: #005B7F;
 }
+
+/* Adding style for the service,contact, and history divs. */
+.servicesDiv, .contactDiv, .historyDiv {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 2em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2em;
+}
+
+#services-container h2, #contact-container h2, #history-container h2 {
+  font-size: 1.8em;
+  color: #005B7F;
+  margin-bottom: 1em;
+}
+
+#services-container p, #contact-container p, #history-container p {
+  font-size: 1.1em;
+  line-height: 1.6em;
+  color: #333333;
+  margin-bottom: 1.5em;
+}
+
+#services-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+#services-container li {
+  font-size: 1.2em;
+  color: #333333;
+  margin-bottom: 0.5em;
+}
+
+#contact-container a {
+  color: #005B7F;
+  text-decoration: none;
+}
+
+#contact-container a:hover {
+  text-decoration: underline;
+  color: #007BB5;
+}
