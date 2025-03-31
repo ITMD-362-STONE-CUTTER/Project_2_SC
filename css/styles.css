@@ -182,3 +182,27 @@ footer a:hover {
     padding: 1.8em;
   }
 }
+
+/* Media queries for screens that have a minimum width of 768px. */
+@media screen and (min-width: 768px) {
+  .main {
+    padding: 3em 10%;
+  }
+
+  .header-container h1 {
+    font-size: 2.5em;
+  }
+
+  .nav-list li {
+    display: inline;
+    margin: 0 15px;
+  }
+
+  .main-text p {
+    font-size: 1.1em;
+  }
+
+  .servicesDiv, .contactDiv, .historyDiv {
+    padding: 2em;
+  }
+}
