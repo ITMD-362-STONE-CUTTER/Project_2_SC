@@ -193,8 +193,12 @@ footer a:hover {
 .imgslider {
   position: relative;
   max-width: 50%;
+  max-height: 400px;
+  display: flex;
   margin: auto;
   overflow: hidden;
+  justify-content: center;
+  align-items: center;
 }
 
 .imgslide {
@@ -204,8 +208,33 @@ footer a:hover {
 }
 
 .imgslide img {
-  width: 100%;
+  vertical-align: middle;
+  width: 60%;
   height: auto;
+  margin: 5px;
+  right: 25px;
+  object-fit: contain;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  cursor: pointer;
+  background-color:#005B7F;
+  color: white;
+  padding: 10px;
+  border: none;
+  z-index: 100;
+}
+
+.prev { 
+  left: 10px; 
+}
+
+.next { 
+  right: 10px; 
 }
 
 
