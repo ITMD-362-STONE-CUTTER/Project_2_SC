@@ -205,15 +205,14 @@ footer a:hover {
   display: none; 
   position: relative;
   width: 100%;
+  align-items: center;
 }
 
 .imgslide img {
-  vertical-align: middle;
   width: 60%;
   height: auto;
-  margin: 5px;
-  right: 25px;
-  object-fit: contain;
+  margin: 80px;
+  padding: 0px;
 }
 
 .prev, .next {
@@ -230,11 +229,11 @@ footer a:hover {
 }
 
 .prev { 
-  left: 10px; 
+  left: 15%; 
 }
 
 .next { 
-  right: 10px; 
+  right: 15%; 
 }
 
 
