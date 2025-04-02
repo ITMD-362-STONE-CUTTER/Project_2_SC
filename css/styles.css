@@ -188,6 +188,17 @@ footer a:hover {
   transition: 0.5s;
 }
 
+/* For the img slider */
+
+.imgslider {
+  position: relative;
+  max-width: 50%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+
 /* Media queries for screens that have a minimum width of 480px. */
 @media screen and (min-width: 480px) {
   .main {
