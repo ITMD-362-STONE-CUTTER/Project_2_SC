@@ -197,6 +197,16 @@ footer a:hover {
   overflow: hidden;
 }
 
+.imgslide {
+  display: none; 
+  position: relative;
+  width: 100%;
+}
+
+.imgslide img {
+  width: 100%;
+  height: auto;
+}
 
 
 /* Media queries for screens that have a minimum width of 480px. */
