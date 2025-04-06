@@ -23,3 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
   function nextSlide() {
     showSlide(currentSlide + 1);
   }
+
+  // The other function to go to the previous slide.
+  function prevSlide() {
+    showSlide(currentSlide - 1);
+  }
