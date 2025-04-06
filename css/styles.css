@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
 
+/* Adding style for the page wrapper in order to keep the footer at bottom. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
 /* Adding in global settings */
 html {
   line-height: 1.2em;
@@ -119,7 +137,7 @@ nav {
   font-size: 1.5em;
   line-height: 1.5em;
   color: #333333;
-  margin-top: 0.5em; 
+  margin-top: 0.5em;
   margin-bottom: 1em;
 }
 
@@ -137,7 +155,7 @@ strong {
   margin-bottom: 2em;
 }
 
-.servicesDiv h3{
+.servicesDiv h3 {
   font-size: 1.667em;
 }
 
@@ -182,12 +200,12 @@ footer {
   background-color: #005B7F;
   color: white;
   text-align: center;
-  padding: 0em 0;
+  padding: 1em 0;
 }
 
 footer p {
   font-size: 1.5em;
-  margin: 0em 0;
+  margin: 0;
 }
 
 footer a {
@@ -200,8 +218,6 @@ footer a:hover {
 }
 
 /* Added form styling. */
-
-
 #contact {
   background-color: white;
   color: #000000;
@@ -223,7 +239,7 @@ footer a:hover {
   padding: 10px;
 }
 
-#Name-bar,#Email-bar, #Tel-bar, #Address-bar {
+#Name-bar, #Email-bar, #Tel-bar, #Address-bar {
   color: #005B7F;
   text-align: center;
   font-size: x-larger;
@@ -231,13 +247,12 @@ footer a:hover {
   margin: auto;
 }
 
-#continfo{
+#continfo {
   padding: 10px;
   text-align: center;
   font-size: xx-large;
   font-weight: bolder;
 }
-
 
 .button {
   background-color: #005B7F;
@@ -254,7 +269,6 @@ footer a:hover {
   background-color: #012e3f;
   transition: 0.5s;
 }
-
 
 /* Styling for the slider. */
 .slider-container {
