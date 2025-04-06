@@ -28,3 +28,15 @@ document.addEventListener("DOMContentLoaded", function () {
   function prevSlide() {
     showSlide(currentSlide - 1);
   }
+
+  // Attaching event listeners to the navigation buttons.
+  const prevButton = document.querySelector(".prev");
+  const nextButton = document.querySelector(".next");
+
+  prevButton.addEventListener("click", function () {
+    prevSlide();
+  });
+
+  nextButton.addEventListener("click", function () {
+    nextSlide();
+  });
