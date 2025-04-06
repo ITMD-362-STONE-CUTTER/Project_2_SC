@@ -18,3 +18,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const slider = document.querySelector(".slider");
     slider.style.transform = `translateX(-${currentSlide * 100}%)`;
   }
+
+  // Another function to go to the next slide.
+  function nextSlide() {
+    showSlide(currentSlide + 1);
+  }
