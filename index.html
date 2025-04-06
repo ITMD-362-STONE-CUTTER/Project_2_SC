@@ -22,20 +22,16 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
-  <div class="main">
-    <div class="imgslider">
-      <div class="imgslide">
-        <img src="images/stone1.jpg">
-      </div>
-      <div class="imgslide">
-        <img src="images/stone2.jpg">
-      </div>
-      <div class="imgslide">
-        <img src="images/stone3.jpg">
-      </div>
-      <a class="prev" onclick="plusSlides(-1)">❮</a>
-      <a class="next" onclick="plusSlides(1)">❯</a>
+  <section class="slider-container">
+    <div class="slider">
+      <img src="images/stone1.jpg" alt="Stonework 1">
+      <img src="images/stone2.jpg" alt="Stonework 2">
+      <img src="images/stone3.jpg" alt="Stonework 3">
     </div>
+    <button class="prev" onclick="prevSlide()">❮</button>
+    <button class="next" onclick="nextSlide()">❯</button>
+  </section>
+  <div class="main">
     <div class="info">
       <div class="main-text">
         <h1>Master Stonemasonry Reuter</h1>
