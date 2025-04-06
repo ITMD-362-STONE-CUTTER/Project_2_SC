@@ -206,15 +206,6 @@ footer a:hover {
   box-shadow: 5px 5px 5px #000000;
 }
 
-label {
-  padding: 10px;
-}
-
-#subutton {
-  align-items: center;
-  margin: auto;
-}
-
 .button {
   background-color: #005B7F;
   color: white;
@@ -222,7 +213,6 @@ label {
   font-size: 1.5rem;
   border-radius: 8px;
   cursor: pointer;
-  margin-left: 200px;
 }
 
 .button:hover {
@@ -230,28 +220,10 @@ label {
   transition: 0.5s;
 }
 
-<<<<<<< Updated upstream
-#Form-info {
-  text-align: center;
-}
-
-#Name-bar, #Tel-bar, #Email-bar, #Address-bar {
-  align-items: center;
-  text-align: center;
-  padding: 10px;
-  font-size: 1.2rem;
-  display: flex;
-  margin-right: 20px;
-}
-
-/* For the img slider */
-
-=======
 /* Image slider styling. */
->>>>>>> Stashed changes
 .imgslider {
   position: relative;
-  max-width: 100%;
+  max-width: 50%;
   max-height: 400px;
   display: flex;
   margin: auto;
@@ -268,39 +240,31 @@ label {
 }
 
 .imgslide img {
-  width: 25%;
-  height: 400px;
-  margin: 36.55%;
-  padding: 15px;
-  align-self: center;
+  width: 60%;
+  height: auto;
+  margin: 80px;
+  padding: 0px;
 }
 
 .prev, .next {
   position: absolute;
   top: 50%;
+  transform: translateY(-50%);
   font-size: 30px;
   cursor: pointer;
   background-color: #005B7F;
   color: white;
   padding: 10px;
   border: none;
+  z-index: 100;
 }
 
-<<<<<<< Updated upstream
-.prev { 
-  left: 35%; 
-}
-
-.next { 
-  right: 35%; 
-=======
 .prev {
   left: 15%;
 }
 
 .next {
   right: 15%;
->>>>>>> Stashed changes
 }
 
 /* Media queries for screens with a minimum width of 480px. */
