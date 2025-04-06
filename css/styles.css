@@ -336,6 +336,13 @@ footer a:hover {
   .servicesDiv, .contactDiv, .historyDiv, .workshopDiv {
     padding: 1.8em;
   }
+  
+  /* Adjusting logo size for better responsiveness */
+  .header-container .logo img {
+    width: 100%;
+    max-width: 350px; /* Adjust the size here if necessary */
+    height: auto;
+  }
 }
 
 /* Media queries for screens with a minimum width of 768px. */
