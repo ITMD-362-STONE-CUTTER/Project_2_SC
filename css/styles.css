@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
 
-/* Adding in the global settings. */
+/* Adding in global settings */
 html {
   line-height: 1.2em;
 }
@@ -11,18 +11,46 @@ body {
   color: #333333;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-/* Making all of the second headers the same blue. */
-h2 {
-  color: #005B7F; /* Blue color */
+/* Added in global heading styles. */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 23px;
+  color: #005B7F;
+  margin: 0.2em 0;
 }
 
-/* Adding in styles for the header. */
+/* Styles for the headings in the main text */
+.main-text h1 {
+  font-size: 40px;
+  color: #005B7F;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.main-text h2 {
+  font-size: 32px;
+  color: #005B7F;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.main-text h3 {
+  font-size: 28px;
+  color: #005B7F;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+/* Adding in the header styles */
 header {
   background-color: #005B7F;
   color: white;
-  padding: 1em 0;
+  padding: 1.5em 0;
 }
 
 .header-container {
@@ -35,12 +63,13 @@ header {
 
 header h1 {
   font-family: 'Roboto', Arial, sans-serif;
-  font-size: 2.5em;
+  font-size: 40px;
   margin-top: 0.5em;
   color: white;
+  text-align: center;
 }
 
-/* Adding style for the navigation. */
+/* Adding in navigation styling. */
 nav {
   background-color: #ffffff;
   padding: 10px 0;
@@ -60,7 +89,7 @@ nav {
 
 .nav-list a {
   color: #005B7F;
-  font-size: 1.2em;
+  font-size: 28px;
   text-decoration: none;
 }
 
@@ -69,30 +98,26 @@ nav {
   color: #007BB5;
 }
 
-/* Added some padding to the main. */
+/* Adding the main content padding. */
 .main {
   padding: 3em 10%;
 }
 
-/* Adding style to the main-text. */
+/* Adding Style for .main-text. */
 .main-text {
   background-color: #ffffff;
   border-radius: 8px;
-  padding: 2em;
+  padding: 1.2em;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 2em;
 }
 
-.main-text h1 {
-  color: #005B7F;
-  margin-bottom: 1em;
-}
-
 .main-text p {
-  font-size: 1.1em;
-  line-height: 1.6em;
+  font-size: 1.5em;
+  line-height: 1.5em;
   color: #333333;
-  margin-bottom: 1.5em;
+  margin-top: 0.5em; 
+  margin-bottom: 1em;
 }
 
 strong {
@@ -100,7 +125,7 @@ strong {
   color: #005B7F;
 }
 
-/* Adding style for the service,contact, and history divs. */
+/* Styling for services, contact, and history divs. */
 .servicesDiv, .contactDiv, .historyDiv {
   background-color: #ffffff;
   border-radius: 8px;
@@ -110,16 +135,18 @@ strong {
 }
 
 #services-container h2, #contact-container h2, #history-container h2 {
-  font-size: 1.8em;
+  font-size: 32px;
   color: #005B7F;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
+  text-align: center;
 }
 
 #services-container p, #contact-container p, #history-container p {
-  font-size: 1.1em;
+  font-size: 1.5em;
   line-height: 1.6em;
   color: #333333;
-  margin-bottom: 1.5em;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
 }
 
 #services-container ul {
@@ -143,16 +170,17 @@ strong {
   color: #007BB5;
 }
 
-/* Added style to the footer. */
+/* Adding style for the footer. */
 footer {
   background-color: #005B7F;
   color: white;
   text-align: center;
-  padding: 1em 0;
+  padding: 0em 0;
 }
 
 footer p {
-  font-size: 1em;
+  font-size: 1.5em;
+  margin: 0em 0;
 }
 
 footer a {
@@ -164,23 +192,22 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* Form Styling*/
-
+/* Added form styling. */
 #contact {
   background-color: white;
   color: #000000;
   padding: 15px;
   margin: 25px auto;
-  border-radius: 15px; 
+  border-radius: 15px;
   width: 85%;
   max-width: 500px;
-  height:100%;
+  height: 100%;
   max-height: 500px;
   box-shadow: 5px 5px 5px #000000;
 }
 
 .button {
-  background-color: #005B7F; 
+  background-color: #005B7F;
   color: white;
   padding: 10px 15px;
   font-size: 1.5rem;
@@ -193,8 +220,7 @@ footer a:hover {
   transition: 0.5s;
 }
 
-/* For the img slider */
-
+/* Image slider styling. */
 .imgslider {
   position: relative;
   max-width: 50%;
@@ -207,7 +233,7 @@ footer a:hover {
 }
 
 .imgslide {
-  display: none; 
+  display: none;
   position: relative;
   width: 100%;
   align-items: center;
@@ -226,30 +252,29 @@ footer a:hover {
   transform: translateY(-50%);
   font-size: 30px;
   cursor: pointer;
-  background-color:#005B7F;
+  background-color: #005B7F;
   color: white;
   padding: 10px;
   border: none;
   z-index: 100;
 }
 
-.prev { 
-  left: 15%; 
+.prev {
+  left: 15%;
 }
 
-.next { 
-  right: 15%; 
+.next {
+  right: 15%;
 }
 
-
-/* Media queries for screens that have a minimum width of 480px. */
+/* Media queries for screens with a minimum width of 480px. */
 @media screen and (min-width: 480px) {
   .main {
     padding: 3em 8%;
   }
 
   .header-container h1 {
-    font-size: 2.2em;
+    font-size: 40px;
   }
 
   .nav-list li {
@@ -258,7 +283,7 @@ footer a:hover {
   }
 
   .main-text p {
-    font-size: 1.05em;
+    font-size: 1.5em;
   }
 
   .servicesDiv, .contactDiv, .historyDiv {
@@ -266,14 +291,14 @@ footer a:hover {
   }
 }
 
-/* Media queries for screens that have a minimum width of 768px. */
+/* Media queries for screens with a minimum width of 768px. */
 @media screen and (min-width: 768px) {
   .main {
     padding: 3em 10%;
   }
 
   .header-container h1 {
-    font-size: 2.5em;
+    font-size: 40px;
   }
 
   .nav-list li {
@@ -282,7 +307,7 @@ footer a:hover {
   }
 
   .main-text p {
-    font-size: 1.1em;
+    font-size: 1.5em;
   }
 
   .servicesDiv, .contactDiv, .historyDiv {
