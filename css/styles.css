@@ -55,6 +55,7 @@ header {
 
 .header-container {
   text-align: center;
+  padding: 0.5em;
 }
 
 .header-container .logo img {
@@ -64,7 +65,8 @@ header {
 header h1 {
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 40px;
-  margin-top: 0.5em;
+  margin-top: 0.3em;
+  margin-bottom: 0.2em;
   color: white;
   text-align: center;
 }
@@ -74,12 +76,13 @@ nav {
   background-color: #ffffff;
   padding: 10px 0;
   text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .nav-list {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 6px;
 }
 
 .nav-list li {
@@ -89,7 +92,7 @@ nav {
 
 .nav-list a {
   color: #005B7F;
-  font-size: 28px;
+  font-size: 25px;
   text-decoration: none;
 }
 
@@ -126,7 +129,7 @@ strong {
 }
 
 /* Styling for services, contact, and history divs. */
-.servicesDiv, .contactDiv, .historyDiv {
+.servicesDiv, .contactDiv, .historyDiv, .workshopDiv {
   background-color: #ffffff;
   border-radius: 8px;
   padding: 2em;
@@ -134,14 +137,18 @@ strong {
   margin-bottom: 2em;
 }
 
-#services-container h2, #contact-container h2, #history-container h2 {
+.servicesDiv h3{
+  font-size: 1.667em;
+}
+
+#services-container h2, #contact-container h2, #history-container h2, #workshop-container h2 {
   font-size: 32px;
   color: #005B7F;
   margin-bottom: 0.5em;
   text-align: center;
 }
 
-#services-container p, #contact-container p, #history-container p {
+#services-container p, #contact-container p, #history-container p, #workshop-container p {
   font-size: 1.5em;
   line-height: 1.6em;
   color: #333333;
@@ -311,7 +318,7 @@ footer a:hover {
     font-size: 1.5em;
   }
 
-  .servicesDiv, .contactDiv, .historyDiv {
+  .servicesDiv, .contactDiv, .historyDiv, .workshopDiv {
     padding: 1.8em;
   }
 }
@@ -323,7 +330,7 @@ footer a:hover {
   }
 
   .header-container h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .nav-list li {
@@ -335,7 +342,7 @@ footer a:hover {
     font-size: 1.5em;
   }
 
-  .servicesDiv, .contactDiv, .historyDiv {
+  .servicesDiv, .contactDiv, .historyDiv, .workshopDiv {
     padding: 2em;
   }
 }
