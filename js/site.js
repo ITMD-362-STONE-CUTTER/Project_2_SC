@@ -1,35 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
-    let slideIndex = 1;
-    showSlides(slideIndex);
+  let currentSlide = 0;
 
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
- 
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-  
-    function showSlides(n) {
-      let slides = document.getElementsByClassName("imgslide");
-  
-      if (slides.length === 0) {
-        console.error("No slides found. Check the class name in your HTML.");
-        return;
-      }
-  
-      if (n > slides.length) { slideIndex = 1; }
-      if (n < 1) { slideIndex = slides.length; }
-  
-      for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-  
-      if (slides[slideIndex - 1]) {
-        slides[slideIndex - 1].style.display = "block";
-      }
-    }
-  
-    window.plusSlides = plusSlides;
-    window.currentSlide = currentSlide;
-});
+  // Adding the function to show the current slide based on the index.html
+  function showSlide(index) {
+    const slides = document.querySelectorAll(".slider img");
+    const totalSlides = slides.length;
+
