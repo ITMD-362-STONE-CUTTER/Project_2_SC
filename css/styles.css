@@ -3,7 +3,7 @@
 /* Adding style for the page wrapper in order to keep the footer at bottom. */
 
 .header-container .logo img {
-  width: 100%;
+  width: 80%;
   max-width: 400px;
   height: auto;
   display: block;
