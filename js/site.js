@@ -40,3 +40,8 @@ document.addEventListener("DOMContentLoaded", function () {
   nextButton.addEventListener("click", function () {
     nextSlide();
   });
+
+  // Automatically shows the next slide every 3 seconds using the setInterval.
+  setInterval(function () {
+    nextSlide();
+  }, 3000);
