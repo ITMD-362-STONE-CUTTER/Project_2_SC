@@ -13,6 +13,11 @@ body {
   padding: 0;
 }
 
+/* Making all of the second headers the same blue. */
+h2 {
+  color: #005B7F; /* Blue color */
+}
+
 /* Adding in styles for the header. */
 header {
   background-color: #005B7F;
