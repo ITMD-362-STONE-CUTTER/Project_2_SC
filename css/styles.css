@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
 
 /* Adding style for the page wrapper in order to keep the footer at bottom. */
+
+.header-container .logo img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 html, body {
   height: 100%;
   margin: 0;
@@ -335,13 +344,6 @@ footer a:hover {
 
   .servicesDiv, .contactDiv, .historyDiv, .workshopDiv {
     padding: 1.8em;
-  }
-  
-  /* Adjusting logo size for better responsiveness */
-  .header-container .logo img {
-    width: 100%;
-    max-width: 350px; /* Adjust the size here if necessary */
-    height: auto;
   }
 }
 
