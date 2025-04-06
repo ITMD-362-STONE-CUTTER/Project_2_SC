@@ -45,3 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
   setInterval(function () {
     nextSlide();
   }, 3000);
+
+  // Initializes the first slide on page load.
+  showSlide(currentSlide);
+});
