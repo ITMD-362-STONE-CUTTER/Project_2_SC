@@ -6,6 +6,7 @@ html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden
 }
 
 .page-wrapper {
@@ -78,6 +79,10 @@ header {
 
 .header-container .logo img {
   max-width: 400px;
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 header h1 {
