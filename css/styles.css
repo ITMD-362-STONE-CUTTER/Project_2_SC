@@ -323,8 +323,8 @@ footer a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%; /* Optional: Ensure the image doesn't exceed the container width */
-  height: auto;    /* Keep the image's aspect ratio intact */
+  max-width: 100%;
+  height: auto;
 }
 
 /* Media queries for screens with a minimum width of 480px. */
