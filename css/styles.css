@@ -190,6 +190,10 @@ strong {
   margin-bottom: 0.5em;
 }
 
+#services-container img {
+  max-height: 400px;
+}
+
 #contact-container a {
   color: #005B7F;
   text-decoration: none;
@@ -199,6 +203,14 @@ strong {
   text-decoration: underline;
   color: #007BB5;
 }
+#workshop-container img {
+  max-height: 400px;
+}
+
+#history-container img {
+  max-height: 400px;
+}
+
 
 /* Adding style for the footer. */
 footer {
