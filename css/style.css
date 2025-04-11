@@ -6,7 +6,7 @@ html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden
+  overflow-x: hidden;
 }
 
 .page-wrapper {
@@ -203,6 +203,7 @@ strong {
   text-decoration: underline;
   color: #007BB5;
 }
+
 #workshop-container img {
   max-height: 400px;
 }
@@ -210,7 +211,6 @@ strong {
 #history-container img {
   max-height: 400px;
 }
-
 
 /* Adding style for the footer. */
 footer {
@@ -256,10 +256,10 @@ footer a:hover {
   padding: 10px;
 }
 
-#Name-bar, #Email-bar, #Tel-bar, #Address-bar {
+.form-group {
   color: #005B7F;
   text-align: center;
-  font-size: x-larger;
+  font-size: x-large;
   padding: 15px;
   margin: auto;
 }
