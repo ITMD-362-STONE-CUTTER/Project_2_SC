@@ -35,30 +35,32 @@ body {
 
 /* Added in global heading styles. */
 h1, h2, h3, h4, h5, h6 {
-  font-size: 23px;
+  font-size: 30px;
   color: #005B7F;
   margin: 0.2em 0;
 }
 
 /* Styles for the headings in the main text */
 .main-text h1 {
-  font-size: 40px;
+  font-size: 30px;
+  color: #005B7F;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  line-height: 1.2;
+  padding: 0;
+}
+
+.main-text h2 {
+  font-size: 30px;
   color: #005B7F;
   margin-top: 1em;
   margin-bottom: 0.5em;
   text-align: center;
 }
 
-.main-text h2 {
-  font-size: 32px;
-  color: #005B7F;
-  margin-top: 1.2em;
-  margin-bottom: 0.5em;
-  text-align: center;
-}
-
 .main-text h3 {
-  font-size: 28px;
+  font-size: 30px;
   color: #005B7F;
   margin-top: 1em;
   margin-bottom: 0.5em;
@@ -87,7 +89,7 @@ header {
 
 header h1 {
   font-family: 'Roboto', Arial, sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   margin-top: 0.3em;
   margin-bottom: 0.2em;
   color: white;
@@ -165,10 +167,23 @@ strong {
 }
 
 #services-container h2, #contact-container h2, #history-container h2, #workshop-container h2 {
-  font-size: 32px;
+  font-size: 30px;
   color: #005B7F;
+  margin-top: 1em;
   margin-bottom: 0.5em;
   text-align: center;
+  line-height: 1.2;
+  padding: 0;
+}
+
+#services-container h3 {
+  font-size: 30px;
+  color: #005B7F;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  line-height: 1.2;
+  padding: 0;
 }
 
 #services-container p, #contact-container p, #history-container p, #workshop-container p {
@@ -217,21 +232,24 @@ footer {
   background-color: #005B7F;
   color: white;
   text-align: center;
-  padding: 1em 0;
+  padding: 0.5em 0; /* Reduced padding for less space */
 }
 
 footer p {
   font-size: 1.5em;
   margin: 0;
+  line-height: 1.4;
 }
 
 footer a {
   color: #FFD700;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 footer a:hover {
   text-decoration: underline;
+  color: #FFCC00;
 }
 
 /* Added form styling. */
@@ -265,10 +283,13 @@ footer a:hover {
 }
 
 #continfo {
-  padding: 10px;
+  font-size: 30px;
+  color: #005B7F;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
   text-align: center;
-  font-size: xx-large;
-  font-weight: bolder;
+  line-height: 1.2;
+  padding: 0;
 }
 
 .button {
@@ -346,7 +367,7 @@ footer a:hover {
   }
 
   .header-container h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .nav-list li {
