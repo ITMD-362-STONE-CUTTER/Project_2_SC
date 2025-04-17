@@ -57,6 +57,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 1em;
   margin-bottom: 0.5em;
   text-align: center;
+  line-height: 1.2;
+  padding: 0;
 }
 
 .main-text h3 {
@@ -117,7 +119,7 @@ nav {
 
 .nav-list a {
   color: #005B7F;
-  font-size: 25px;
+  font-size: 22px;
   text-decoration: none;
 }
 
@@ -232,7 +234,7 @@ footer {
   background-color: #005B7F;
   color: white;
   text-align: center;
-  padding: 0.5em 0; /* Reduced padding for less space */
+  padding: 0.5em 0;
 }
 
 footer p {
@@ -368,6 +370,9 @@ footer a:hover {
 
   .header-container h1 {
     font-size: 30px;
+    text-align: center;
+    line-height: 1.4;
+    padding: 0;
   }
 
   .nav-list li {
