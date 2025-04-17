@@ -381,7 +381,7 @@ footer a:hover {
 }
 
 /* Media queries for screens with a minimum width of 480px. */
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 480px) {
 .main {
   padding: 3em 8%;
 }
