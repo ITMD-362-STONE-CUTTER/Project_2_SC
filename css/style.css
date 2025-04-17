@@ -430,9 +430,14 @@ footer a:hover {
     padding: 2em;
   }
 
-  /* Shrink form inputs on larger screens */
   #contact input, #contact textarea {
     width: 48%;
+  }
+
+  #contact {
+    width: 90%;
+    max-width: 800px;
+    padding: 30px;
   }
 }
 
