@@ -363,52 +363,62 @@ footer a:hover {
 }
 
 /* Media queries for screens with a minimum width of 480px. */
-@media screen and (min-width: 480px) {
-  .main {
-    padding: 3em 8%;
-  }
+@media screen and (min-width: 320px) {
+.main {
+  padding: 3em 8%;
+}
 
-  .header-container h1 {
-    font-size: 30px;
-    text-align: center;
-    line-height: 1.4;
-    padding: 0;
-  }
+.header-container h1 {
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.4;
+  padding: 0;
+}
 
-  .nav-list li {
-    display: inline-block;
-    margin: 0 10px;
-  }
+.nav-list li {
+  display: inline-block;
+  margin: 0 10px;
+}
 
-  .main-text p {
-    font-size: 1.5em;
-  }
+.main-text p {
+  font-size: 1.5em;
+}
 
-  .servicesDiv, .contactDiv, .historyDiv, .workshopDiv {
-    padding: 1.8em;
+.servicesDiv, .contactDiv, .historyDiv, .workshopDiv {
+  padding: 1.8em;
+}
+  
+footer {
+  font-size: 0.7em;
+  padding: 2px;
   }
 }
 
 /* Media queries for screens with a minimum width of 768px. */
 @media screen and (min-width: 768px) {
-  .main {
-    padding: 3em 10%;
-  }
+.main {
+  padding: 3em 10%;
+}
 
-  .header-container h1 {
-    font-size: 50px;
-  }
+.header-container h1 {
+  font-size: 50px;
+}
 
-  .nav-list li {
-    display: inline;
-    margin: 0 15px;
-  }
+.nav-list li {
+  display: inline;
+  margin: 0 15px;
+}
 
-  .main-text p {
-    font-size: 1.5em;
-  }
+.main-text p {
+  font-size: 1.5em;
+}
 
-  .servicesDiv, .contactDiv, .historyDiv, .workshopDiv {
-    padding: 2em;
+.servicesDiv, .contactDiv, .historyDiv, .workshopDiv {
+  padding: 2em;
+  }
+  
+footer {
+  font-size: 0.8em;
+  padding: 10px;
   }
 }
