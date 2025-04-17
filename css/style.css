@@ -258,30 +258,59 @@ footer a:hover {
 #contact {
   background-color: white;
   color: #000000;
-  padding: 15px;
+  padding: 30px;
   margin: 25px auto;
   border-radius: 15px;
-  width: 85%;
-  max-width: 500px;
-  height: 100%;
-  max-height: 500px;
-  box-shadow: 5px 5px 5px #000000;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+   text-align: center;
 }
 
 #formtitle {
   color: #005B7F;
   text-align: center;
-  font-size: large;
+  font-size: 1.8rem;
   font-weight: bold;
-  padding: 10px;
+  padding-bottom: 15px;
 }
 
 .form-group {
+  margin-bottom: 20px;
+}
+
+#contact input, #contact textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+#contact label {
+  display: block;
+  font-size: 1.1rem;
   color: #005B7F;
-  text-align: center;
-  font-size: x-large;
-  padding: 15px;
-  margin: auto;
+  margin-bottom: 8px;
+}
+
+.button {
+  background-color: #005B7F;
+  color: white;
+  padding: 14px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #012e3f;
 }
 
 #continfo {
@@ -292,17 +321,6 @@ footer a:hover {
   text-align: center;
   line-height: 1.2;
   padding: 0;
-}
-
-.button {
-  background-color: #005B7F;
-  color: white;
-  padding: 10px 15px;
-  font-size: 1.5rem;
-  border-radius: 8px;
-  cursor: pointer;
-  width: 100%;
-  margin: auto;
 }
 
 .button:hover {
@@ -411,4 +429,16 @@ footer a:hover {
   .servicesDiv, .contactDiv, .historyDiv, .workshopDiv {
     padding: 2em;
   }
+
+  #contact input, #contact textarea {
+    width: 48%;
+  }
+
+  #contact {
+    width: 90%;
+    max-width: 800px;
+    padding: 30px;
+    flex-grow: 1;
+  }
 }
+
